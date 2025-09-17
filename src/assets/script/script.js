@@ -1,14 +1,14 @@
 var slides = [
-    { tag: 'Nu aan het spelen', title: 'Marvel Rivals & Call of Duty: Warzone', text: 'Ik speel nu Marvel Rivals en Warzone. goed voor aim, teamplay en pacing.', media: { type: 'video', src: 'src/assets/videos/Current-games.mp4' } },
-    { tag: 'Gespeeld', title: 'Favoriete werelden waar ik ben geweest', text: 'De spelwerelden die mij het meeste nostalgie geven zijn: skyrim, gta en red dead redemption.', media: { type: 'video', src: 'src/assets/videos/Played-games.mp4' } },
-    { tag: 'Toekomstdroom', title: 'Games die ik in de toekomst wil maken', text: 'In de toekomst wil ik spellen zoals Fable en God of War maken.', media: { type: 'video', src: 'src/assets/videos/future-games.mp4' } }
+    { tag: 'Nu aan het spelen', title: 'Marvel Rivals & Call of Duty: Warzone', text: 'Ik speel nu Marvel Rivals en Warzone. goed voor aim, teamplay en pacing.', media: { type: 'video', src: './src/assets/videos/Current-games.mp4' } },
+    { tag: 'Gespeeld', title: 'Favoriete werelden waar ik ben geweest', text: 'De spelwerelden die mij het meeste nostalgie geven zijn: skyrim, gta en red dead redemption.', media: { type: 'video', src: './src/assets/videos/Played-games.mp4' } },
+    { tag: 'Toekomstdroom', title: 'Games die ik in de toekomst wil maken', text: 'In de toekomst wil ik spellen zoals Fable en God of War maken.', media: { type: 'video', src: './src/assets/videos/future-games.mp4' } }
 ];
 
 var playlist = [
-    { title: 'Through the Wire', artist: 'Kanye West', src: 'src/assets/audio/Kanye West - Through The Wire Sunday Service Choir - No Content (youtube).mp3', mv: 'src/assets/images/L.mp4' },
-    { title: 'Indecision', artist: 'Sampha', src: 'src/assets/audio/Sampha - Indecision.mp3', mv: 'src/assets/images/spiderman.mp4' },
-    { title: 'Boucan', artist: 'Franglish ft keblack', src: 'src/assets/audio/Franglish ft keblack - BOUCAN (audio) - Musique TV (youtube).mp3', mv: 'src/assets/images/goku.mp4' },
-    { title: 'Blue Bird', artist: 'Naruto Shippuden', src: 'src/assets/audio/Naruto Shippuden Opening 3  Blue Bird (HD) - Crunchyroll Deutschland (youtube).mp3', mv: 'src/assets/images/Naruto-vs-Sasuke.mp4' }
+    { title: 'Through the Wire', artist: 'Kanye West', src: './src/assets/audio/Kanye West - Through The Wire Sunday Service Choir - No Content (youtube).mp3', mv: './src/assets/images/L.mp4' },
+    { title: 'Indecision', artist: 'Sampha', src: './src/assets/audio/Sampha - Indecision.mp3', mv: './src/assets/images/spiderman.mp4' },
+    { title: 'Boucan', artist: 'Franglish ft keblack', src: './src/assets/audio/Franglish ft keblack - BOUCAN (audio) - Musique TV (youtube).mp3', mv: './src/assets/images/goku.mp4' },
+    { title: 'Blue Bird', artist: 'Naruto Shippuden', src: './src/assets/audio/Naruto Shippuden Opening 3  Blue Bird (HD) - Crunchyroll Deutschland (youtube).mp3', mv: './src/assets/images/Naruto-vs-Sasuke.mp4' }
 ];
 
 var bgVideo = document.getElementById('bgVideo');
