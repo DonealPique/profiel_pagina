@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Profile - DonTheDev</title>
+    <link rel="stylesheet" href="/src/assets/css/style.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon.ico" type="image/x-icon">
+    <script src="/src/assets/script/script.js" defer></script>
+</head>
+<body>
+    <div class="bg-layer" id="bgLayer">
+        <video id="bgVideo" autoplay loop muted playsinline></video>
+        <img id="bgImage" alt="achtergrond" />
+    </div>
+
+    <div class="app">
+
+        <header>
+            <div class="header-inner glass player" aria-label="Muziekspeler">
+                <div class="mv-thumb">
+                    <video id="mv" autoplay loop muted playsinline></video>
+                </div>
+                <div class="track-meta">
+                    <div class="track-title" id="trackTitle">-</div>
+                    <div class="track-artist" id="trackArtist">-</div>
+                </div>
+                <div class="controls">
+                    <button class="btn" id="prevBtn" title="Vorige track">⏮</button>
+                    <button class="btn" id="playBtn" title="Play/Pause">▶</button>
+                    <button class="btn" id="nextBtn" title="Volgende track">⏭</button>
+                    <button class="btn" id="muteBtn" title="Mute">🔇</button>
+                </div>
+                <audio id="audio"></audio>
+            </div>
+
+            <a href="https://donealpique.github.io/Anime-Gif-Collection/" target="_blank" rel="noopener">
+                <img class="avatar" src="/src/assets/images/lain-serial-experiments-lain.gif" title="Touch me" alt="link naar anime gif collectie" />
+            </a>
+        </header>
+
+        <main>
+            <button class="nav-arrow left" id="leftArrow" aria-label="Vorige">◀</button>
+            <button class="nav-arrow right" id="rightArrow" aria-label="Volgende">▶</button>
+
+            <section class="content">
+                <article class="card glass" id="slideCopy">
+                    <span class="chip" id="chip">Nu aan het spelen</span>
+                    <h1 class="title" id="title">Marvel Rivals & Call of Duty: Warzone</h1>
+                    <p class="subtitle" id="subtitle">klik de pijlen om te wisselen tussen: gespeeld • nu • toekomstdroom</p>
+                    <p class="copy" id="copy">
+                        hey! Ik ben Doneal Piqué, een 21 jarige developer uit Nederland. geboren in Suriname en nu in Nederland. In Suriname deed ik 5 jaar werktuigbouwkunde;
+                        hier heb ik software development gevolgd. Ik leef voor games - momenteel duik in in <strong>Marvel Rivals</strong> en <strong>Call of Duty: Warzone</strong>.
+                        Mijn droom is om <em>narrative-driven</em> games te maken met de ziel van <strong>Fable</strong> en de intensiteit van <strong>God of War</strong>.
+                    </p>
+                    <p class="copy" id="randomLine">
+                        Professional Loser! 👾
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <div class="socials">
+                    <a href="https://github.com/DonealPique" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/doneal-piqu%C3%A9/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+                <div class="contact">Contact: <a href="mailto:doneal.pique@hva.nl" style="color: var(--text);">doneal.pique@hva.nl</a></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
